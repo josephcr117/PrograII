@@ -1,0 +1,12 @@
+h1.especial {
+    color: blue;
+}
+
+#principal {
+    background-color: black;
+    color: white;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
