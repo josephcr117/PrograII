@@ -12,6 +12,15 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Agregar Personas</h1>
+        
+        <form action="ingresarPersonas" method="post">
+            
+            <input type="text" name="txtcedula" value="" placeholder="Digite su Cedula"/> <br>
+            <input type="text" name="txtnombre" value="" placeholder="Digite su Nombre"/>  <br>
+            <input type="text" name="txtapellidos" value="" placeholder="Digite su Apellido"/> <br>
+            <br>
+            <input type="submit" value="registro"/>
+        </form>
     </body>
 </html>
